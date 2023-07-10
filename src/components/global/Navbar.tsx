@@ -43,7 +43,11 @@ const Navbar = () => {
                   bgColor={currentTheme === "dark" ? "gray.700" : "white"}
                 >
                   <Link href="/">
-                    <MenuItem>Home</MenuItem>
+                    <MenuItem
+                      bgColor={currentTheme === "dark" ? "gray.700" : "white"}
+                    >
+                      Home
+                    </MenuItem>
                   </Link>
                 </MenuList>
               </Menu>
