@@ -39,7 +39,9 @@ const Navbar = () => {
                     currentTheme === "dark" ? "white" : "blackAlpha.700"
                   }
                 />
-                <MenuList bgColor={currentTheme === "dark" ? "" : "white"}>
+                <MenuList
+                  bgColor={currentTheme === "dark" ? "gray.700" : "white"}
+                >
                   <Link href="/">
                     <MenuItem>Home</MenuItem>
                   </Link>
