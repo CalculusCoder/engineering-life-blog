@@ -1,4 +1,3 @@
-import React from "react";
 import ColorModeToggler from "./ColorModeToggler";
 import Link from "next/link";
 import {
